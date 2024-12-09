@@ -18,7 +18,7 @@ PORT = os.environ.get("PORT", "8080")
 
 # Database
 DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://gihabi8558:IfnVcGxDbkzA3DOo@terbogram.xyrm1.mongodb.net/?retryWrites=true&w=majority&appName=terbogram")
-DB_NAME = os.environ.get("DATABASE_NAME", "Videowalabot")
+DB_NAME = os.environ.get("DATABASE_NAME", "Videowalbot")
 
 # Token variables
 SHORTLINK_URL1 = os.environ.get("SHORTLINK_URL1", "pandaznetwork.com")
