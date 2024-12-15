@@ -14,7 +14,7 @@ CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002336908318"))
 OWNER_ID = int(os.environ.get("OWNER_ID", "7733263597"))
 
 # Port
-PORT = os.environ.get("PORT", "8080")
+PORT = os.environ.get("PORT", "80")
 
 # Database
 DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://gihabi8558:IfnVcGxDbkzA3DOo@terbogram.xyrm1.mongodb.net/?retryWrites=true&w=majority&appName=terbogram")
