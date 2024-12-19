@@ -30,8 +30,8 @@ IS_VERIFY = os.environ.get("IS_VERIFY", "True")
 TUT_VID = os.environ.get("TUT_VID", "https://youtu.be/EGpBKQjqXko")
 
 #force sub channel id, if you want enable force sub
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCESUB_CHANNEL", "-1002295749037"))
-FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCESUB_CHANNEL2", "-1002407134876"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCESUB_CHANNEL", "-1002480552671"))
+FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCESUB_CHANNEL2", "-1002480552671"))
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "3000"))
 
 START_MSG = os.environ.get("START_MESSAGE", "<b>👋 Hello {first}\n\nI am file sharing Bot \nI can Provide You Video Files For You \nEnjoy Watching Video 😁👻📂💀</b> ")
