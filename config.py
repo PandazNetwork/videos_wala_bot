@@ -23,7 +23,7 @@ PORT = os.environ.get("PORT", "8080")
 
 # Database
 DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://gihabi8558:IfnVcGxDbkzA3DOo@terbogram.xyrm1.mongodb.net/?retryWrites=true&w=majority&appName=terbogram")
-DB_NAME = os.environ.get("DATABASE_NAME", "Storage1")
+DB_NAME = os.environ.get("DATABASE_NAME", "Movieszzz")
 
 #force sub channel id, if you want enable force sub
 FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002297312060"))
