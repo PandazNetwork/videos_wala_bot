@@ -8,7 +8,7 @@ APP_ID = int(os.environ.get("APP_ID", "27247089"))
 API_HASH = os.environ.get("API_HASH", "2456e376e82f580ea1d1ed9d6444df8f")
 
 # Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002336908318"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002447041920"))
 
 # OWNER ID
 OWNER_ID = int(os.environ.get("OWNER_ID", "7655130739"))
@@ -18,7 +18,7 @@ PORT = os.environ.get("PORT", "8080")
 
 # Database
 DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://gihabi8558:IfnVcGxDbkzA3DOo@terbogram.xyrm1.mongodb.net/?retryWrites=true&w=majority&appName=terbogram")
-DB_NAME = os.environ.get("DATABASE_NAME", "Videowalbot")
+DB_NAME = os.environ.get("DATABASE_NAME", "Storage")
 
 # Token variables
 SHORTLINK_URL1 = os.environ.get("SHORTLINK_URL1", "pandaznetwork.com")
@@ -26,12 +26,12 @@ SHORTLINK_API1 = os.environ.get("SHORTLINK_API1", "5f82d8793633efb1268e8a4d3e7b4
 SHORTLINK_URL2 = os.environ.get("SHORTLINK_URL2", "pandaznetwork.com")
 SHORTLINK_API2 = os.environ.get("SHORTLINK_API2", "5f82d8793633efb1268e8a4d3e7b4911e217d20a")
 VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 28800))
-IS_VERIFY = os.environ.get("IS_VERIFY", "True")
+IS_VERIFY = os.environ.get("IS_VERIFY", "False")
 TUT_VID = os.environ.get("TUT_VID", "https://youtu.be/EGpBKQjqXko")
 
 #force sub channel id, if you want enable force sub
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCESUB_CHANNEL", "-1002480552671"))
-FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCESUB_CHANNEL2", "-1002480552671"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCESUB_CHANNEL", "-1002297312060"))
+FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCESUB_CHANNEL2", "-1002297312060"))
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "3000"))
 
 START_MSG = os.environ.get("START_MESSAGE", "<b>👋 Hello {first}\n\nI am file sharing Bot \nI can Provide You Video Files For You \nEnjoy Watching Video 😁👻📂💀</b> ")
