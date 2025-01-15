@@ -3,7 +3,7 @@ import logging
 from logging.handlers import RotatingFileHandler
 
 # Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7967067742:AAFcBgB94Kb607JcrdVm1STbp98xtHHmMRU")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "")
 APP_ID = int(os.environ.get("APP_ID", "27247089"))
 API_HASH = os.environ.get("API_HASH", "2456e376e82f580ea1d1ed9d6444df8f")
 
@@ -17,7 +17,7 @@ OWNER_ID = int(os.environ.get("OWNER_ID", "7655130739"))
 PORT = os.environ.get("PORT", "8080")
 
 # Database
-DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://gihabi8558:IfnVcGxDbkzA3DOo@terbogram.xyrm1.mongodb.net/?retryWrites=true&w=majority&appName=terbogram")
+DB_URI = os.environ.get("DATABASE_URL", "")
 DB_NAME = os.environ.get("DATABASE_NAME", "Storage")
 
 # Token variables
